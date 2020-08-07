@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:accessibilityLiveRegion="assertive"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:context=".MainActivity">
+
+            <ImageView
+                android:id="@+id/icon"
+                android:layout_width="match_parent"
+                android:layout_height="215dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/arogya_setu_main_1585989203129" />
+
+            <ImageView
+                android:id="@+id/risky"
+                android:layout_width="match_parent"
+                android:layout_height="326dp"
+                android:contentDescription="TODO"
+                app:srcCompat="@drawable/image_7_high_risk" />
+
+            <ImageView
+                android:id="@+id/safe"
+                android:layout_width="match_parent"
+                android:layout_height="326dp"
+                android:contentDescription="TODO"
+                app:srcCompat="@drawable/image_7_low_risk" />
+
+            <ImageView
+                android:id="@+id/test"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:layout_marginTop="10dp"
+                android:contentDescription="TODO"
+                app:srcCompat="@drawable/dsbuffertest_bmp" />
+
+            <ImageView
+                android:id="@+id/hospital"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:layout_marginTop="10dp"
+                android:contentDescription="TODO"
+                app:srcCompat="@drawable/dsbuffer_bmp" />
+
+            <ImageView
+                android:id="@+id/pmcares"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:layout_marginTop="10dp"
+                android:contentDescription="TODO"
+                app:srcCompat="@drawable/dsbufferpm_bmp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="135dp"
+                android:layout_marginTop="10dp"
+                android:contentDescription="@string/tod_1"
+                app:srcCompat="@drawable/pm_cares_fund" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
